@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Programming\\.Net\\SingalR\\Practise\\SignalR_TableDependency\\SignalR_TableDependency\\SignalR_TableDependency.csproj": {}
+  },
+  "projects": {
+    "E:\\Programming\\.Net\\SingalR\\Practise\\SignalR_TableDependency\\SignalR_TableDependency\\SignalR_TableDependency.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Programming\\.Net\\SingalR\\Practise\\SignalR_TableDependency\\SignalR_TableDependency\\SignalR_TableDependency.csproj",
+        "projectName": "SignalR_TableDependency",
+        "projectPath": "E:\\Programming\\.Net\\SingalR\\Practise\\SignalR_TableDependency\\SignalR_TableDependency\\SignalR_TableDependency.csproj",
+        "packagesPath": "C:\\Users\\Rowida Essam\\.nuget\\packages\\",
+        "outputPath": "E:\\Programming\\.Net\\SingalR\\Practise\\SignalR_TableDependency\\SignalR_TableDependency\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Rowida Essam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.Entityframeworkcore.design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Entityframeworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Entityframeworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "SqlTableDependency": {
+              "target": "Package",
+              "version": "[8.5.8, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
